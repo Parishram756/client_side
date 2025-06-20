@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 80%;
+  background-position: center;
+  padding: 50px;
+  
+}
+header{
+    margin-left: 15%;
+    background-position: center;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 1px solid black;
+    max-width: 70%;
+    position: center;
+}
+
+.container {
+  background-image: url('beens.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  
+}
+
+.menu-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-overflow: clip;
+  background-color: #d2a679;
+  padding: 30px 40px;
+  position: cover;
+  text-align: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-bottom: 2x;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.icon {
+  width: 30px;
+  margin: 10px 0;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 20px;
+}
+
+.item-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 0;
+  font-size: 15px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #803c20;
+  margin: 15px 0;
+}
+
+.footer {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.footer a {
+  color: black;
+  text-decoration: underline;
+}
